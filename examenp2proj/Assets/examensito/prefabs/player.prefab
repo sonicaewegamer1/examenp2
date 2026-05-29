@@ -1762,6 +1762,7 @@ GameObject:
   - component: {fileID: 8798240558171159710}
   - component: {fileID: 1535592153233738312}
   - component: {fileID: 4530400758844937743}
+  - component: {fileID: 6482546146958125429}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -1857,6 +1858,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::switchmode
   robotMode: {fileID: 2968390584720296112}
   vehicleMode: {fileID: 8576387524652320705}
+--- !u!114 &6482546146958125429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6740447391273644766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d56c66872e8496c4d8f51b73bc37022d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 100
+  healthSlider: {fileID: 0}
 --- !u!1 &7106495344209581391
 GameObject:
   m_ObjectHideFlags: 0
